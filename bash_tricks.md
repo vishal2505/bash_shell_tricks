@@ -1,6 +1,5 @@
-## How to extract one column of a csv file
+### How to extract one column of a csv file
 
 We can use awk for this. Change '$2' to the nth column.
 
-``` awk -F "\"*,\"*" '{print $2}' textfile.csv
-
+``` awk -F "\"*,\"*" '{print $2}' textfile.csv ```
